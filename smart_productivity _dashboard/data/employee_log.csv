@@ -1,0 +1,10 @@
+EmployeeID,Name,Date,HoursWorked,TasksCompleted,Attendance
+E001,Alice,2025-07-28,7,5,Present
+E001,Alice,2025-07-29,6,4,Present
+E001,Alice,2025-07-30,2,1,Present
+E002,Bob,2025-07-28,8,6,Present
+E002,Bob,2025-07-29,0,0,Absent
+E002,Bob,2025-07-30,7,4,Present
+E003,Charlie,2025-07-28,5,3,Present
+E003,Charlie,2025-07-29,4,2,Present
+E003,Charlie,2025-07-30,3,1,Present

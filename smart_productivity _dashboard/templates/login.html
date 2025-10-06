@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+<div class="container py-5">
+    <h2 class="text-center animate__animated animate__fadeInDown">🔐 Admin Login</h2>
+    <form method="POST" class="w-50 mx-auto mt-4">
+        <div class="mb-3">
+            <label class="form-label">Admin ID</label>
+            <input type="text" name="username" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" required>
+        </div>
+        {% if error %}
+        <p class="text-danger">{{ error }}</p>
+        {% endif %}
+        <button type="submit" class="btn btn-success w-100">Login</button>
+        <div class="text-center mt-2">
+            <a href="/forgot-password" class="text-warning">Forgot Password?</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
